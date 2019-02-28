@@ -156,6 +156,18 @@ _DATASETS = {
         _ANN_FN:
             _DATA_DIR + '/coco/annotations/image_info_test2015.json'
     },
+    'coma_train': {
+        _IM_DIR:
+            _DATA_DIR + '/coma/train',
+        _ANN_FN:
+            _DATA_DIR + '/coma/annotations/instances_train.json'
+    },
+    'coma_val': {
+        _IM_DIR:
+            _DATA_DIR + '/coma/val',
+        _ANN_FN:
+            _DATA_DIR + '/coma/annotations/instances_val.json'
+    },
     'keypoints_coco_2015_test-dev': {
         _IM_DIR:
             _DATA_DIR + '/coco/coco_test2015',
